@@ -8,7 +8,7 @@ public class Empleado {
 	private String mail;
 	private String telefono;
 	private float salario;
-	private String cargo;
+	
 	
 	public Empleado(String cargo, String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
 		this.nombre = nombre;
