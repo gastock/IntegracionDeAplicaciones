@@ -11,6 +11,7 @@ public class FacturaEntity {
 	
 	@Id
 	@Column(name="numero")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int numero;
 	
 	@Column(name="tipo")
