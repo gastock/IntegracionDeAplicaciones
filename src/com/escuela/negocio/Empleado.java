@@ -4,6 +4,7 @@ public class Empleado {
 	private String nombre;
 	private int legajo;
 	private String direccion;
+	private String cargo;
 	private String mail;
 	private String telefono;
 	private float salario;
@@ -17,6 +18,14 @@ public class Empleado {
 		this.salario = salario;
 	}
 
+	public String getCargo(){
+		return this.cargo;
+	}
+	
+	public setCargo(String cargo){
+	this.cargo = cargo;	
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
