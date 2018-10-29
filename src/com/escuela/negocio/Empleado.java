@@ -24,7 +24,7 @@ public class Empleado {
 		return this.cargo;
 	}
 	
-	public setCargo(String cargo){
+	public void setCargo(String cargo){
 	this.cargo = cargo;	
 	}
 	
