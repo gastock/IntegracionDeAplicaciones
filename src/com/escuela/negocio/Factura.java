@@ -16,7 +16,7 @@ public class Factura {
 		this.tipo = tipo;
 		this.fechaEmision = fechaEmision;
 		this.fechaPago = fechaPago;
-		Pago = pago;
+		this.Pago = false;
 	}
 
 	public Boolean getPago() {
@@ -24,7 +24,7 @@ public class Factura {
 	}
 
 	public void setPago(Boolean pago) {
-		Pago = pago;
+		this.Pago = pago;
 	}
 
 
