@@ -10,20 +10,15 @@ public class Factura {
 	private LocalDateTime fechaPago;
 <<<<<<< Updated upstream
 	private Boolean Pago;	
+	private Alumno alumno;
 	
 	
 	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago, Boolean pago) {
-=======
 	private List<ItemFactura> items;
-		
-	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago, List<ItemFactura> items) {
->>>>>>> Stashed changes
-		super();
 		this.numero = numero;
 		this.tipo = tipo;
 		this.fechaEmision = fechaEmision;
-		this.fechaPago = fechaPago;
-<<<<<<< Updated upstream
+		this.fechaPago = null;
 		this.Pago = false;
 =======
 		this.items = items;

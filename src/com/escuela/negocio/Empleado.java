@@ -10,9 +10,8 @@ public class Empleado {
 	private float salario;
 	
 	
-	public Empleado(String cargo, String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
+	public Empleado(String cargo, String nombre, String direccion, String mail, String telefono, float salario) {
 		this.nombre = nombre;
-		this.legajo = legajo;
 		this.direccion = direccion;
 		this.mail = mail;
 		this.telefono = telefono;
