@@ -7,15 +7,27 @@ public class Factura {
 	private String tipo;
 	private LocalDateTime fechaEmision;
 	private LocalDateTime fechaPago;
-		
-	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago) {
+	private Boolean Pago;	
+	
+	
+	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago, Boolean pago) {
 		super();
 		this.numero = numero;
 		this.tipo = tipo;
 		this.fechaEmision = fechaEmision;
 		this.fechaPago = fechaPago;
+		Pago = pago;
 	}
-	
+
+	public Boolean getPago() {
+		return Pago;
+	}
+
+	public void setPago(Boolean pago) {
+		Pago = pago;
+	}
+
+
 	public int getNumero() {
 		return numero;
 	}
