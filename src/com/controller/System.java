@@ -2,34 +2,29 @@ package com.controller;
 
 import java.util.List;
 
-import bean.Cliente;
-import bean.Servicio;
-import bean.Venta;
+import com.escuela.negocio.Escolaridad;
+import com.escuela.negocio.Titular;
 
 public class System {
 	
-	private List<Alumno> alumnos;
-	private List<Titular> titulares;
-	private List<Adicional> adicionales;
-	private Escolaridad escolaridad;
 	
-	public void crearAlumno(int legajo, String nombre) {
+	public void crearAlumno(String nombre, int dniTitular, String escolaridad) {
 		
 	}
 	
-	public void modificarAlumno() {
+	public void modificarAlumno(int legajo, String direccion, String mail,String telefono, String telefonoContacto) {
 		
 	}
 	
-	public void bajaAlumno() {
+	public void bajaAlumno(int legajo) {
 		
 	}
 	
-	public void crearEmpleado() {
+	public void crearEmpleado(String cargo, String nombre, String direccion, String mail, String telefono, float salario) {
 		
 	}
 	
-	public void modificarEmpleado() {
+	public void modificarEmpleado(int legajo, String cargo, String direccion, String mail, String telefono, float salario) {
 		
 	}
 	

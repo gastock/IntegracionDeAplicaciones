@@ -7,14 +7,16 @@ public class Empleado {
 	private String mail;
 	private String telefono;
 	private float salario;
+	private String cargo;
 	
-	public Empleado(String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
+	public Empleado(String cargo, String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
 		this.nombre = nombre;
 		this.legajo = legajo;
 		this.direccion = direccion;
 		this.mail = mail;
 		this.telefono = telefono;
 		this.salario = salario;
+		this.cargo = cargo;
 	}
 
 	public String getNombre() {

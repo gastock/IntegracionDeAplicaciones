@@ -6,6 +6,9 @@ public class Alumno {
 	private String nombre;
 	private int legajo;
 	private Titular titular;
+	private String direccion;
+	private String mail;
+	private String telefono;
 	private Escolaridad escolaridad;
 	private List<Adicional> adicionales;
 	
