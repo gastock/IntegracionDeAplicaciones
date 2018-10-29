@@ -1,22 +1,33 @@
 package com.escuela.negocio;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class Factura {
 	private int numero;
 	private String tipo;
 	private LocalDateTime fechaEmision;
 	private LocalDateTime fechaPago;
+<<<<<<< Updated upstream
 	private Boolean Pago;	
 	
 	
 	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago, Boolean pago) {
+=======
+	private List<ItemFactura> items;
+		
+	public Factura(int numero, String tipo, LocalDateTime fechaEmision, LocalDateTime fechaPago, List<ItemFactura> items) {
+>>>>>>> Stashed changes
 		super();
 		this.numero = numero;
 		this.tipo = tipo;
 		this.fechaEmision = fechaEmision;
 		this.fechaPago = fechaPago;
+<<<<<<< Updated upstream
 		this.Pago = false;
+=======
+		this.items = items;
+>>>>>>> Stashed changes
 	}
 
 	public Boolean getPago() {

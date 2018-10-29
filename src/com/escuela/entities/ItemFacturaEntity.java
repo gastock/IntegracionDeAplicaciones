@@ -1,13 +1,23 @@
-package com.escuela.negocio;
+package com.escuela.entities;
 
-public class ItemFactura {
-	private int id;
+import javax.persistence.*;
+
+@Entity
+@Table(name="facturas")
+public class ItemFacturaEntity {
+	
+	@Column(name="descripcion")
 	private String descripcion;
+	
+	@Column(name="costo")
 	private float costo;
+	
+	@Id
+	@Column(name="id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 
-	public ItemFactura(String descripcion, float costo) {
-		this.descripcion = descripcion;
-		this.costo = costo;
+	public ItemFacturaEntity(){
 	}
 
 	public String getDescripcion() {

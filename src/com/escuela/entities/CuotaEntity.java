@@ -1,14 +1,21 @@
-package com.escuela.negocio;
+package com.escuela.entities;
 
-public class ItemFactura {
-	private int id;
+import javax.persistence.*;
+
+@MappedSuperclass
+public class CuotaEntity {
+	
+	//hay que poner ID??
+	
+	@Column(name="descripcion")
 	private String descripcion;
+	
+	@Column(name="costo")
 	private float costo;
-
-	public ItemFactura(String descripcion, float costo) {
-		this.descripcion = descripcion;
-		this.costo = costo;
+	
+	public CuotaEntity(){
 	}
+
 
 	public String getDescripcion() {
 		return descripcion;
