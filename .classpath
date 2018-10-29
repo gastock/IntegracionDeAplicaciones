@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-<<<<<<< Updated upstream
+	<classpathentry kind="src" path=""/>
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/byte-buddy-1.6.14.jar"/>
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/c3p0-0.9.5.2.jar"/>
@@ -42,20 +40,5 @@
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/proxool-0.8.3.jar"/>
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="D:/Aplicaciones Distribuidas/librerias/slf4j-api-1.7.7.jar"/>
-=======
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/ejb3-persistence.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/hibernate3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/hibernate-annotations.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/hibernate-commons-annotations.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/javassist-3.4.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/jtds-1.2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/slf4j-api-1.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Poyo/Desktop/FACULTAD 2017/Aplicaciones Distribuidas/CURSO VERANO 2018/EjemploCompleto/lib/slf4j-simple-1.5.6.jar"/>
->>>>>>> Stashed changes
 	<classpathentry kind="output" path="bin"/>
 </classpath>
