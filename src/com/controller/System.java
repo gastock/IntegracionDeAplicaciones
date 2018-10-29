@@ -42,7 +42,7 @@ public class System {
 		
 	}
 	
-	public void bajaEmpleado() {
+	public void bajaEmpleado(int legajo) {
 		
 	}
 	
@@ -52,23 +52,23 @@ public class System {
 		
 	}
 	
-	public void modificarTitular() {
+	public void modificarTitular(int dNI, String direccion, String mail, String telefono) {
 		
 	}
 	
-	public void bajaTitular() {
+	public void bajaTitular(int dNI) {
 		
 	}
 	
-	public void facturarAlumno() {
+	public void facturarAlumno(int legajo) {
 		
 	}
 	
-	public void pagarFactura() {
+	public void pagarFactura(int numero) {
 		
 	}
 	
-	public void asignarCuota() {
+	public void asignarCuota(int legajo) {
 		
 	}
 }
