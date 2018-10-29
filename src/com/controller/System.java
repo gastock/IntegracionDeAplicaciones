@@ -2,18 +2,16 @@ package com.controller;
 
 import java.util.List;
 
-<<<<<<< Updated upstream
 import com.escuela.negocio.Escolaridad;
 import com.escuela.negocio.Titular;
-=======
+
 import com.escuela.negocio.Alumno;
 import com.escuela.negocio.Empleado;
 import com.escuela.negocio.Titular;
 
-import bean.Cliente;
-import bean.server.ClienteServer;
 
->>>>>>> Stashed changes
+
+
 
 public class System {
 	
@@ -32,13 +30,11 @@ public class System {
 		
 	}
 	
-<<<<<<< Updated upstream
-	public void crearEmpleado(String cargo, String nombre, String direccion, String mail, String telefono, float salario) {
-=======
-	public void crearEmpleado(String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
+
+	public void crearEmpleado(String cargo, String nombre, int legajo, String direccion, String mail, String telefono, float salario) {
 		
-		Empleado newEmpleado = new Empleado(nombre, legajo, direccion, mail, telefono, salario);
->>>>>>> Stashed changes
+		Empleado newEmpleado = new Empleado(cargo, nombre, legajo, direccion, mail, telefono, salario);
+
 		
 	}
 	
